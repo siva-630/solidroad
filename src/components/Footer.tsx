@@ -7,15 +7,15 @@ export default function Footer() {
         <footer className="bg-emerald-950 text-white py-12 text-sm relative rounded-t-3xl mx-2">
             <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center md:items-start gap-10">
 
-                {/* Left Side: Image */}
+                
                 <div className="w-40 h-60 rounded-2xl overflow-hidden shrink-0 shadow-lg shadow-emerald-900/50 border border-emerald-800/30">
                     <img src={footerBg} alt="Footer Branding" className="w-full h-full object-cover" />
                 </div>
 
-                {/* Right Side: Links */}
+              
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center md:text-left">
 
-                    {/* Column 1: MENU */}
+                    
                     <div className="flex flex-col gap-4">
                         <h3 className="font-bold text-emerald-400 tracking-wider uppercase mb-2">Menu</h3>
                         <Link to="/customer" className="hover:text-emerald-300 transition font-medium">Customers</Link>
@@ -23,7 +23,7 @@ export default function Footer() {
                         <Link to="/career" className="hover:text-emerald-300 transition font-medium">Careers</Link>
                     </div>
 
-                    {/* Column 2: COMPANY */}
+                 
                     <div className="flex flex-col gap-4">
                         <h3 className="font-bold text-emerald-400 tracking-wider uppercase mb-2">Company</h3>
                         <a href="#" className="hover:text-emerald-300 transition font-medium">Help</a>
@@ -31,7 +31,7 @@ export default function Footer() {
                         <a href="#" className="hover:text-emerald-300 transition font-medium">Security</a>
                     </div>
 
-                    {/* Column 3: Social */}
+                   
                     <div className="flex flex-col gap-4">
                         <h3 className="font-bold text-emerald-400 tracking-wider uppercase mb-2">Social</h3>
                         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-300 transition font-medium">X (Twitter)</a>
