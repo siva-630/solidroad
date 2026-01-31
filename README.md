@@ -6,7 +6,8 @@ A modern, responsive landing page built with **TanStack** (React + Router + Quer
 
 A modern, responsive landing page built with **TanStack** (React + Router + Query) inspired by the design below.
 
-![Landing Page Preview](image.png)
+![Landing Page Preview]![Landing Page Preview](./public/image.png)
+
 
 ---
 
